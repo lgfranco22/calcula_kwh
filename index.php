@@ -35,7 +35,7 @@
     </head>
     <body>
             <?php
-                require_once "recebe.php";
+                require "recebe.php";
             ?>
     <header>
 
@@ -59,42 +59,4 @@
         </footer>
     </body>
 </html>
-
-        <!--  
-        /*
-        
-            if(isset($_POST['name']) && !empty($_POST['name'])){
-                if(isset($_POST['pass']) && !empty($_POST['pass'])){
-                    $email = $_POST['name'];
-                    $pass = $_POST['pass'];
-                    echo 'Meu Email eh: '.$email.' e minha senha eh '.$pass;
-                    echo '<hr>';
-            }
-        }
-        */
-        
-        <form method="POST">
-        <input type="text" name="name" id="name">
-        <input type="password" name="pass" id="pass">
-        <input type="submit" value="vai">
-        </form>
-        
-        /*
-            $x = 123;
-            switch($x)
-            {
-                case 0:
-                case 1:
-                case 2:
-                    echo "x eh de 0 a 2";
-                    break;
-                case 3:
-                    echo "x eh 3";
-                    break; 
-                default:
-                    echo "nada";
-                    break;
-            }
-        */
-        -->
           
